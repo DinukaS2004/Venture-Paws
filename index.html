@@ -65,43 +65,43 @@
         <h2>OUR SERVICES</h2>
         <div class="features-container">
             <div class="feature-card">
-                <img src="icons/abuse-report.svg"  class="feature-icon">
+                <img src="icons/alert-circle-outline.svg"  class="feature-icon">
                 <h2>Report Animal Abuse</h2>
                 <p>Help us take action against animal abuse by reporting incidents.</p>
                 <a href="#" class="feature-cta">Report Now</a>
             </div>
             <div class="feature-card">
-                <img src="icons/research.svg" alt="Research Articles" class="feature-icon">
+                <img src="icons/newspaper-outline.svg" alt="Research Articles" class="feature-icon">
                 <h2>Research Articles</h2>
                 <p>Read our latest research articles on animal welfare and rights.</p>
                 <a href="#" class="feature-cta">Explore Articles</a>
             </div>
             <div class="feature-card">
-                <img src="icons/awareness.svg" alt="Raising Awareness" class="feature-icon">
+                <img src="icons/paw-outline.svg" alt="Raising Awareness" class="feature-icon">
                 <h2>Raising Awareness</h2>
                 <p>Learn how you can help raise awareness about animal rights.</p>
                 <a href="#" class="feature-cta">Learn More</a>
             </div>
             <div class="feature-card">
-                <img src="icons/donations.svg" alt="Donations" class="feature-icon">
+                <img src="icons/cash-outline.svg" alt="Donations" class="feature-icon">
                 <h2>Donations</h2>
                 <p>Support our cause by making a donation to help animals in need.</p>
                 <a href="#" class="feature-cta">Donate Now</a>
             </div>
             <div class="feature-card">
-                <img src="icons/lost-found.svg" alt="Lost & Found Alerts" class="feature-icon">
+                <img src="icons/alert-outline.svg" alt="Lost & Found Alerts" class="feature-icon">
                 <h2>Lost & Found Alerts</h2>
                 <p>View and report lost and found animals in your area.</p>
                 <a href="#" class="feature-cta">View Alerts</a>
             </div>
             <div class="feature-card">
-                <img src="icons/emergency-care.svg" alt="Emergency Pet Care Locators" class="feature-icon">
+                <img src="icons/storefront-outline.svg" alt="Emergency Pet Care Locators" class="feature-icon">
                 <h2>Emergency Pet Care Locators</h2>
                 <p>Find emergency care for pets quickly and easily.</p>
                 <a href="#" class="feature-cta">Locate Care</a>
             </div>
             <div class="feature-card">
-                <img src="icons/counseling.svg" alt="Pet Counseling Service" class="feature-icon">
+                <img src="icons/call-outline.svg" alt="Pet Counseling Service" class="feature-icon">
                 <h2>Pet Counseling Service</h2>
                 <p>Get professional advice and support for your pet’s needs.</p>
                 <a href="#" class="feature-cta">Get Counseling</a>
@@ -252,7 +252,24 @@
 
 
 
-
+    <!--Start of Conferbot Script-->
+    <script type="text/javascript">
+        (function (d, s, id) {
+          var js, el = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s);
+          js.async = true;
+          js.src = 'https://s3.ap-south-1.amazonaws.com/conferbot.defaults/dist/v1/widget.min.js';
+          js.id = id;
+          js.charset = 'UTF-8';
+          el.parentNode.insertBefore(js, el);
+          js.onload = function () {
+            var w = window.ConferbotWidget("66a60c0db8b22aaca169caf2", "live_chat");
+          };
+        })(document, 'script', 'conferbot-js');
+      </script>
+      <!--End of Conferbot Script-->
+      
     <script src="script.js"></script>
 </body>
 </html>
