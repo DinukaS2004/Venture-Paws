@@ -232,6 +232,7 @@ body {
 
 .features h2{
     text-align: center;
+    font-family: var(--ff-poppins);
 }
 .features-container {
     display: grid;
