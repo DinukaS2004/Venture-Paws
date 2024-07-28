@@ -48,3 +48,4 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     console.log('News Section loaded!');
 });
+
