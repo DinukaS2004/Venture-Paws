@@ -135,12 +135,12 @@ body {
 /* Hero Section styles */
 .hero {
     position: relative;
-    background: url('imgs/Untitled\ design.png') no-repeat center center/cover;
+    background: url('imgs/Untitled\ design\ \(3\).png') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 0 20px;
 }
@@ -190,12 +190,12 @@ body {
 
 .cta-secondary {
     background-color: transparent;
-    color: #333333;
-    border: 2px solid #333333;
+    color: #e7e2e2;
+    border: 2px solid #e7e2e2;
 }
 
 .cta-secondary:hover {
-    background-color: #333333;
+    background-color: #737070;
     color: #ffffff;
 }
 
